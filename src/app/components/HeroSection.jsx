@@ -31,7 +31,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] mb-6 text-lg lg:text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            sit, tenetur qui magni nostrum et maxime. Culpa, nesciunt odio
+            sit, tenetur qui magni nostrum et maxime.Nesciunt odio
             nostrum.
           </p>
           <div>
