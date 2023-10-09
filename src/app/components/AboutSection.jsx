@@ -17,7 +17,7 @@ const TAB_DATA = [
         <li>CLI</li>
         <li>GIT</li>
         <li>Firebase</li>
-        <li>FIGMA</li>
+        <li>Figma</li>
       </ul>
     ),
   },
