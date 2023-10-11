@@ -6,10 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
-  // {
-  //   title: "Home",
-  //   path: "/",
-  // },
+
   {
     title: "About",
     path: "#about",
@@ -26,6 +23,7 @@ const navLinks = [
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  
 
   return (
     <nav className="fixed top-0 border border-[#1b213b] left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
