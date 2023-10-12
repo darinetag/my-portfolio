@@ -9,15 +9,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>JavaScript</li>
-        <li>Next.js</li>
-        <li>React.js</li>
-        <li>HTML/CSS</li>
-        <li>Tailwind CSS</li>
         <li>CLI</li>
         <li>GIT</li>
-        <li>Firebase</li>
+        <li>HTML/CSS</li>
+        <li>Tailwind CSS</li>
         <li>Figma</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Next.js</li>
+        <li>Firebase</li>
       </ul>
     ),
   },
@@ -33,17 +33,16 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Additional Skills",
-    id: "additional skills",
+    title: "Soft Skills",
+    id: "soft skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Translation</li>
-        <li>Voice-acting</li>
-        <li>Writing</li>
-        <li>Digital Art</li>
-        <li>Teaching</li>
-        <li>Proofreading</li>
-        <li>Presentation</li>
+        <li>Growth mindset</li>
+        <li>Creativity</li>
+        <li>Problem solving</li>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Empathy</li>
       </ul>
     ),
   },
@@ -66,8 +65,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm Darine Tag, a growth-minded front-end developer passionate about
-            Turning ideas into aesthetically pleasing digital solutions. My soft
+            I'm Darine Tag, a growth-minded front-end developer who's all about
+            turning ideas into aesthetically pleasing digital solutions. My soft
             skills fuel my technical growth. I recently completed an immersive
             Front-end development bootcamp, mastering JavaScript, Next.js,
             React.js, HTML, CSS, TailwindCSS, CLI, Firebase, and Git workflow. I
@@ -90,11 +89,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("additional skills")}
-              active={tab === "additional skills"}
+              selectTab={() => handleTabChange("soft skills")}
+              active={tab === "soft skills"}
             >
               {" "}
-              Additional Skills{" "}
+              Soft Skills{" "}
             </TabButton>
           </div>
           <div className="mt-8">

@@ -10,7 +10,7 @@ const projectsData = [
     description:
       "ChromX is an E-Commerce project designed to showcase the usage of various technologies and tools for building a modern web application.",
     image: "/images/1.png",
-    //add tag to all array if u want to filter different types of projects
+    //add tag to the entire array if u want to filter different types of projects
     gitUrl: "https://github.com/darinetag/e-commerce-project-chromx",
     previewUrl: "e-commerce-project-chromx.vercel.app",
   },
@@ -60,7 +60,6 @@ const ProjectsSection = () => {
               title={project.title}
               description={project.description}
               imgUrl={project.image}
-              // add tag here as well and a make a componenet
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
             />
