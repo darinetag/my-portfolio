@@ -27,7 +27,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Re:Coded Front-end Bootcamp</li>
-        <li>Master's in Translation </li>
+        <li>Master&apos;s in Translation </li>
         <li>Bachelor in English</li>
       </ul>
     ),
@@ -71,13 +71,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm Darine Tag, a growth-minded front-end developer who's all about
-            turning ideas into aesthetically pleasing digital solutions. My soft
-            skills fuel my technical growth. I recently completed an immersive
-            Front-end development bootcamp, mastering JavaScript, Next.js,
-            React.js, HTML, CSS, TailwindCSS, CLI, Firebase, and Git workflow. I
-            thrive in team environments and I'm eager to contribute my skills to
-            your team's success.
+            I&apos;m Darine Tag, a growth-minded front-end developer who&apos;s
+            all about turning ideas into aesthetically pleasing digital
+            solutions. My soft skills fuel my technical growth. I recently
+            completed an immersive Front-end development bootcamp, mastering
+            JavaScript, Next.js, React.js, HTML, CSS, TailwindCSS, CLI,
+            Firebase, and Git workflow. I thrive in team environments and
+            I&apos;m eager to contribute my skills to your team&apos;s success.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

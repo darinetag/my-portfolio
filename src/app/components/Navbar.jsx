@@ -33,7 +33,7 @@ const Navbar = () => {
       id="/"
     >
       <div className="flex lg:py-4 flex-wrap items-center justify-between mx-auto p-8">
-        <Link href="/" className="">
+        <Link href="/" className="w-auto">
           <Image
             src="/images/logo.png"
             alt="portfolio logo"
@@ -62,9 +62,9 @@ const Navbar = () => {
         </div>
         <div className="hidden md:block md:w-auto" id="navbar-default">
           <ul className="font-medium flex p-4 md:p-0  rounded-lg flex-row md:space-x-8 mt-0">
-            {navLinks.map((link) => {
+            {navLinks.map((link, index) => {
               return (
-                <li key={link.title}>
+                <li key={index}>
                   <NavLink title={link.title} href={link.path} />
                 </li>
               );
