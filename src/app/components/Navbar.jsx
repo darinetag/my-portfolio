@@ -4,8 +4,12 @@ import Link from "next/link";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import Image from "next/image";
 
 const navLinks = [
+  {
+    path: "/",
+  },
   {
     title: "About",
     path: "#about",
@@ -24,13 +28,18 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 border border-[#1b213b] left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto p-8">
-        <Link
-          href="/"
-          className="text-2xl md:text-5xl text-white font-semibold"
-        >
-          LOGO
+    <nav
+      className="fixed top-0 border border-[#1b213b] left-0 right-0 bg-[#121212] bg-opacity-90 z-20"
+      id="/"
+    >
+      <div className="flex lg:py-4 flex-wrap items-center justify-between mx-auto p-8">
+        <Link href="/" className="">
+          <Image
+            src="/images/logo.png"
+            alt="portfolio logo"
+            width={80}
+            height={80}
+          ></Image>
         </Link>
         <div className="block md:hidden">
           {!navbarOpen ? (
@@ -55,12 +64,8 @@ const Navbar = () => {
           <ul className="font-medium flex p-4 md:p-0  rounded-lg flex-row md:space-x-8 mt-0">
             {navLinks.map((link) => {
               return (
-                <li>
-                  <NavLink
-                    key={link.title}
-                    title={link.title}
-                    href={link.path}
-                  />
+                <li key={link.title}>
+                  <NavLink title={link.title} href={link.path} />
                 </li>
               );
             })}

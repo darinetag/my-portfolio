@@ -38,9 +38,9 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Growth mindset</li>
-        <li>Creativity</li>
         <li>Problem solving</li>
         <li>Communication</li>
+        <li>Creativity</li>
         <li>Teamwork</li>
         <li>Empathy</li>
       </ul>
@@ -59,9 +59,15 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/aboutme.png" width={500} height={500} />
+    <section className="text-white" id="about">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-10 px-4 xl:gap-16 sm:py-16 xl:px-6">
+        <Image
+          className="xl:w-full xl:h-80 xl:self-stretch"
+          src="/images/aboutme.gif"
+          width={500}
+          height={500}
+          alt="about me"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
