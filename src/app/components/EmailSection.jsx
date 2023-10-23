@@ -3,7 +3,6 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import Link from "next/link";
 
 const EmailSection = () => {
-  
   return (
     <section
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
@@ -12,13 +11,13 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#649173] via-teal-900 to-blue-900 rounded-full h-80 w-80 z-0 blur-lg absolute top-full -left-4 transform -translate-x-1/2 -translate-y-1/2" />
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-4 mt-3">
-          Let's Connect
+          Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I'm currently on the search for new oppurtunities, my inbox is always
-          open. Feel free to reach out if you have a question or just want to
-          say hey, I will get back to you!
+          I&apos;m currently on the search for new oppurtunities, my inbox is
+          always open. Feel free to reach out if you have a question or just
+          want to say hey, I will get back to you!
         </p>
         <div className="socials flex flex-row gap-3">
           <Link href="https://github.com/darinetag">

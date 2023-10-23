@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center place-items-center grid lg:place-items-start">
           <h1 className="text-white mb-4 lg:text-6xl text-4xl font-extrabold">
             <span className="text-transparent lg:text-6xl text-5xl bg-clip-text bg-gradient-to-br from-yellow-100 via-teal-900 to-blue-900">
-              Hey, I'm{"  "}
+              Hey, I&apos;m{"  "}
             </span>{" "}
             <br></br>
             <TypeAnimation
@@ -53,13 +53,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-5 place-self-center mt-14 lg:mt-0"
         >
-          <div className="lg:w-[400px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative">
+          <div className="lg:w-[500px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative">
             <Image
               src="/images/hero-img.png"
               alt="hero image"
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
+              priority={true}
             />
           </div>
         </motion.div>
