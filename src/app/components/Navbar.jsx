@@ -37,8 +37,8 @@ const Navbar = () => {
           <Image
             src="/images/logo.png"
             alt="portfolio logo"
-            width={80}
-            height={80}
+            width={70}
+            height={70}
           ></Image>
         </Link>
         <div className="block md:hidden">

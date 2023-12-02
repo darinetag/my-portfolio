@@ -6,16 +6,36 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Shareity",
+    description:
+      "Shareity encourages people to share and reuse products like clothes, food and furniture amongst the community",
+    tags: "#Next.js #TailwindCSS #Firebase #Firestore",
+    image: "/images/shareity.png",
+    gitUrl: "https://github.com/202306-NEA-DZ-FEW/team-f",
+    previewUrl: "https://letshare-iota.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Portfolio",
+    description:
+      "My Portfolio showcases my projects, and all the necessary information concerning my skils, competencies, and how to contact me.",
+    tags: "#Next.js #TailwindCSS #Gitworkflow",
+    image: "/images/3.png",
+    gitUrl: "https://github.com/darinetag/my-portfolio",
+    previewUrl: "https://darinetag.vercel.app/",
+  },
+  {
+    id: 3,
     title: "ChromX",
     description:
       "ChromX is an E-Commerce project designed to showcase the usage of various technologies for building a modern website.",
     tags: "#Next.js #TailwindCSS #Firebase #Gitworkflow",
     image: "/images/1.png",
     gitUrl: "https://github.com/darinetag/e-commerce-project-chromx",
-    previewUrl: "e-commerce-project-chromx.vercel.app",
+    previewUrl: "https://e-commerce-project-chromx.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Cosmic Nova",
     description:
       "Cosmic Nova is a madlibs game created with vanilla Javascript, CSS and HTML. It is responsive and the styling was inspired from Figma.",
@@ -23,17 +43,7 @@ const projectsData = [
 
     image: "/images/2.png",
     gitUrl: "https://github.com/202306-NEA-DZ-FEW/madlibs-cosmic-nova",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Portfolio",
-    description:
-      "My Portfolio showcases my projects, and all the necessary information concerning my skils, competencies, and how to contact me.",
-    tags: "#Next.js #TailwindCSS #Gitworkflow",
-    image: "/images/3.png",
-    gitUrl: "https://github.com/darinetag/my-portfolio",
-    previewUrl: "/",
+    previewUrl: "https://cosmicnova.netlify.app/",
   },
 ];
 
