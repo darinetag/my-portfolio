@@ -2,6 +2,7 @@
 import TabButton from "./TabButton";
 import { useTransition, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const TAB_DATA = [
   {
@@ -46,6 +47,24 @@ const TAB_DATA = [
       </ul>
     ),
   },
+  {
+    title: "blogs",
+    id: "blogs",
+    content: (
+      <ul className="list-disc pl-2">
+        <li className="cursor-pointer hover:text-teal-600">
+          <Link href="https://darinetag.hashnode.dev/beginner-programmers-in-self-doubt-no-more?source=more_articles_bottom_blogs">
+            Beginner Programmers in Self-doubt ... No More
+          </Link>
+        </li>
+        <li className="cursor-pointer hover:text-teal-600">
+          <Link href="https://darinetag.hashnode.dev/beginner-programmers-journey">
+            Beginner Programmer&apos;s Journey
+          </Link>
+        </li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -75,9 +94,9 @@ const AboutSection = () => {
             all about turning ideas into aesthetically pleasing digital
             solutions. My soft skills fuel my technical growth. I recently
             completed an immersive Front-end development bootcamp, mastering
-            JavaScript, Next.js, React.js, HTML, CSS, TailwindCSS, CLI,
-            Firebase, and Git workflow. I thrive in team environments and
-            I&apos;m eager to contribute my skills to your team&apos;s success.
+            CLI, Git, HTML, CSS, TailwindCSS, JavaScript, React.js, Next.js, and
+            Firebase. I thrive in team environments and I&apos;m eager to
+            contribute my skills to your team&apos;s success.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -100,6 +119,13 @@ const AboutSection = () => {
             >
               {" "}
               Soft Skills{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("blogs")}
+              active={tab === "blogs"}
+            >
+              {" "}
+              Blogs{" "}
             </TabButton>
           </div>
           <div className="mt-8">
