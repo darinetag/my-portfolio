@@ -10,14 +10,14 @@ Styling: Tailwind CSS
 
 ## Getting Started
 
-To run this project locally, follow these steps: 
+To run this project locally, follow these steps: <br>
 
-creat a next.js file
-Clone the repository: git clone git@github.com:darinetag/my-portfolio.git
-Navigate to the project directory: cd portfolio
-Install dependencies: npm install
-Start the development server: npm run dev
-Open your browser and visit http://localhost:3000
+creat a next.js file <br>
+Clone the repository: git clone git@github.com:darinetag/my-portfolio.git <br>
+Navigate to the project directory: cd portfolio <br>
+Install dependencies: npm install <br>
+Start the development server: npm run dev <br>
+Open your browser and visit http://localhost:3000 <br>
 
 ## Portfolio Link
 https://darinetag-portfolio.vercel.app/
