@@ -17,7 +17,7 @@ Styling: Tailwind CSS
 
 To run this project locally, follow these steps: <br>
 
-creat a next.js file <br>
+create a next.js file <br>
 Clone the repository: git clone git@github.com:darinetag/my-portfolio.git <br>
 Navigate to the project directory: cd portfolio <br>
 Install dependencies: npm install <br>
