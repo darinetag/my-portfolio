@@ -15,6 +15,7 @@ const HeroSection = () => {
             </span>{" "}
             <br></br>
             <TypeAnimation
+            className="dark:text-white text-gray-900"
               sequence={[
                 "Darine",
                 1000,
@@ -30,7 +31,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] mb-6 text-lg lg:text-xl">
+          <p className="text-gray-900 dark:text-[#ADB7BE] mb-6 text-lg lg:text-xl">
             Front-End Developer | Next.js | React.js Turning ideas into
             aesthetically pleasing digital solutions.
           </p>

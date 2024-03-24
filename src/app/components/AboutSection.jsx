@@ -78,7 +78,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="dark:text-white text-gray-900" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-10 px-4 xl:gap-16 sm:py-16 xl:px-6">
         <Image
           className="xl:w-full xl:h-80 xl:self-stretch"
@@ -88,7 +88,9 @@ const AboutSection = () => {
           alt="about me"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold dark:text-white text-gray-900 mb-4">
+            About Me
+          </h2>
           <p className="text-base lg:text-lg">
             I&apos;m Darine Tag, a growth-minded front-end developer who&apos;s
             all about turning ideas into aesthetically pleasing digital
@@ -98,7 +100,7 @@ const AboutSection = () => {
             Firebase. I thrive in team environments and I&apos;m eager to
             contribute my skills to your team&apos;s success.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8 ">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
