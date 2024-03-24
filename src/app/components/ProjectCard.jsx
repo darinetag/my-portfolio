@@ -15,7 +15,7 @@ const ProjectCard = ({
         className="h-52 md:h-72 rounded-t-xl relative group"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
       >
-        <div className="overlay items-center justify-center absolute top-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500">
+        <div className="overlay items-center justify-center absolute top-0 w-full h-full bg-gray-600 dark:bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500">
           <Link
             href={gitUrl}
             className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
@@ -30,9 +30,9 @@ const ProjectCard = ({
           </Link>
         </div>
       </div>
-      <div className="text-white rounded-b-xl mt-3 bg-[#181818] py-6 px-4">
+      <div className="text-white rounded-b-xl mt-3 bg-gray-600 dark:bg-[#181818] py-6 px-4">
         <h5 className="font-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <p className="text-gray-200 dark:text-[#ADB7BE]">{description}</p>
         <h5 className="text-[#e4dea7] font-xl font-semibold mt-2">{tags}</h5>
       </div>
     </div>
