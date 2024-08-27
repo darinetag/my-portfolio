@@ -28,7 +28,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 border-b border-gray-500 dark:border-[#1b213b] left-0 right-0 bg-gray-200 dark:bg-[#121212] text-gray-900 z-20 duration-200">
+    <nav className="fixed top-0 border-b border-gray-500 dark:border-[#1b213b] left-0 right-0 bg-[#87A922] dark:bg-[#121212] text-gray-900 z-20 duration-200">
       <div className="flex lg:py-4 flex-wrap items-center justify-between mx-auto p-8">
         <Link href="/" className="w-auto">
           <Image

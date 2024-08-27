@@ -13,7 +13,7 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-gray-900 dark:text-white my-4 mt-3">
           Let&apos;s Connect
         </h5>
-        <p className="text-gray-600 dark:text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-gray-800 dark:text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I&apos;m currently on the search for new oppurtunities, my inbox is
           always open. Feel free to reach out if you have a question or just
@@ -47,7 +47,7 @@ const EmailSection = () => {
               type="email"
               id="email"
               required
-              className="dark:bg-[#18191E] border border-[#33353F] placeholder-gray-900 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5"
+              className="dark:bg-[#18191E] bg-transparent border-2 dark:border border-[#33353F] placeholder-gray-900 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="jacob@google.com"
             />
           </div>
@@ -63,7 +63,7 @@ const EmailSection = () => {
               type="text"
               id="subject"
               required
-              className="dark:bg-[#18191E] border border-[#33353F] placeholder-gray-900 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5"
+              className="dark:bg-[#18191E] bg-transparent border-2 dark:border border-[#33353F] placeholder-gray-900 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="Hey there"
             />
           </div>
@@ -77,13 +77,13 @@ const EmailSection = () => {
             <textarea
               name="message"
               id="message"
-              className="dark:bg-[#18191E] border border-[#33353F] placeholder-gray-900 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5"
+              className="dark:bg-[#18191E] bg-transparent border-2 dark:border border-[#33353F] placeholder-gray-900 dark:placeholder-[#9CA2A9] dark:text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="  Let's chat about..."
             />
           </div>
           <button
             type="submit"
-            className="bg-gradient-to-br from-[#649173] via-teal-900 to-blue-900 hover:bg-teal-900  text-white font-medium py-2.5 px-5 mt-4 rounded-lg w-full"
+            className="bg-gradient-to-br from-[#649173] via-teal-900 to-blue-900 hover:bg-teal-900  dark:text-white text-zinc-950 font-medium dark:font-medium py-2.5 px-5 mt-4 rounded-lg w-full"
           >
             {" "}
             Send message{" "}
