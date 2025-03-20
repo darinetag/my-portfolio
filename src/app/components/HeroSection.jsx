@@ -56,11 +56,11 @@ const HeroSection = () => {
         >
           <div className="lg:w-[500px] lg:h-[400px] w-[250px] h-[250px] rounded-full relative">
             <Image
-              src="/images/deee.png"
+              src="/images/hero-img.png"
               alt="hero image"
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={500}
-              height={500}
+              width={400}
+              height={300}
               priority={true}
             />
           </div>
