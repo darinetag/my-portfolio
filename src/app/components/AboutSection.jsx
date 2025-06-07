@@ -19,6 +19,8 @@ const TAB_DATA = [
         <li>React.js</li>
         <li>Next.js</li>
         <li>Firebase</li>
+        <li>Astro</li>
+        <li>wordpress</li>
       </ul>
     ),
   },
@@ -39,9 +41,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Growth mindset</li>
+        <li>Adaptability</li>
+        <li>Creativity</li>
         <li>Problem solving</li>
         <li>Communication</li>
-        <li>Creativity</li>
         <li>Teamwork</li>
         <li>Empathy</li>
       </ul>
@@ -92,7 +95,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-base lg:text-lg">
-            I&apos;m Darine Tag, a growth-minded front-end developer who&apos;s
+            I&apos;m Darine Tag, a front-end developer who&apos;s
             all about turning ideas into aesthetically pleasing digital
             solutions. My soft skills fuel my technical growth. I recently
             completed an immersive Front-end development bootcamp, mastering

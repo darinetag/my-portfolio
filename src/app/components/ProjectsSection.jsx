@@ -45,6 +45,28 @@ const projectsData = [
     gitUrl: "https://github.com/202306-NEA-DZ-FEW/madlibs-cosmic-nova",
     previewUrl: "https://cosmicnova.netlify.app/",
   },
+  {
+    id: 5,
+    title: "ChatGPT Clone",
+    description:
+      "ChatGPT Clone, a powerful chat application built with TypeScript, Next.js (React), Firebase, Firestore, Tailwind CSS, and ChatGPT's Open AI API.",
+    tags: "#Next.js #Typescript #Firebase #useSWR",
+
+    image: "/images/chatgpt.jpg",
+    gitUrl: "https://github.com/darinetag/chatgpt-clone",
+    previewUrl: "https://chatgpt-delta-vert.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Portfolio",
+    description:
+      "Portfolio designed and coded from scratch to reflect my UI UX Design skills and demonstrate both my design thinking and development skills.",
+    tags: "#Next.js #Framer-motion #Tailwindcss",
+
+    image: "/images/portfolio.png",
+    gitUrl: "https://github.com/darinetag/portfolio",
+    previewUrl: "https://www.darinetag.dev/",
+  },
 ];
 
 const ProjectsSection = () => {
